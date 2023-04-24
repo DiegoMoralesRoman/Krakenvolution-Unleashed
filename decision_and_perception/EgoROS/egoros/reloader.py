@@ -24,7 +24,7 @@ def callback(node: node.Node, init_arg: Any):
 
 def enable_dynamic_reloads(nodes: List[node.Node], init_arg: Any):
     for node in nodes:
-        handler = FileModifiedHandler(lambda: callback(node, init_arg))
+        handler = FileModifiedHandler(lambda node=node, init_arg=init_arg: callback(node, init_arg))
         observer.schedule(handler, node.filename, recursive=False)
 
     return observer

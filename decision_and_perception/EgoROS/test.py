@@ -4,15 +4,8 @@ import egoros.reloader
 
 nodes = egoros.get_folder_nodes('./nodes')
 
-loaded_nodes = [egoros.node.Node(e) for e in nodes]
+instance = egoros.EgoInstance(nodes)
+instance.enable_dynamic_reloads()
 
-observer = egoros.reloader.enable_dynamic_reloads(loaded_nodes, 'Kekos')
-observer.start()
+instance.spin()
 
-from time import sleep
-
-while True:
-    try:
-        sleep(1)
-    except Exception as e:
-        raise e
