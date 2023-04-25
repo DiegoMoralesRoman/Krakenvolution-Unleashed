@@ -1,9 +1,10 @@
-from typing import Dict, List
-from .node import Node, Configuration
+from typing import Any, Dict, List, Any, Callable
+from .node import Any, Node, Configuration
 from . import reloader
 import os
 from dataclasses import dataclass
 import threading
+from .pubsub import MessageHub
 
 def get_folder_nodes(path: str):
     """
@@ -69,6 +70,9 @@ class EgoInstance:
         @param node_paths List of node paths that the server will keep track of
         """
 
+        self.msg_hub = MessageHub()
+        self.msg_hub.pause()
+
         nodes  = [Node(e) for e in node_paths]
         self.nodes: Dict[str, EgoNode] = {}
         # Initialize nodes
@@ -79,10 +83,16 @@ class EgoInstance:
                 node=node
             )
 
+        self.msg_hub.resume()
         # Initialize inner attributes
         self.observer_started = False
         self.running = True
 
+    def publish(self, topic: str, value: Any):
+        self.msg_hub.publish(topic, value)
+
+    def subscribe(self, topic: str, callback: Callable[[Any], None]):
+        self.msg_hub.subscribe(topic, callback)
 
     def enable_dynamic_reloads(self):
         """
@@ -179,7 +189,7 @@ class EgoInstance:
             tick_condition.notify_all()
             tick_condition.release()
             print(f'''
-    EgoROS main loop was interrupted, closing all nodes...
+    EgoROS main loop was interrupted by the user, closing all nodes...
             ''')
             
         # Wait until all threads have stopped

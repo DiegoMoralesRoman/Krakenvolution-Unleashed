@@ -11,6 +11,6 @@ def init(mod):
     )
 
 def tick(mod):
-    print('Tick normal node')
-    sys.stdout.flush()
-    logging.info('Ticked normal node')
+    msg = 'Pipusaurio'
+    print(f'Publicando: {msg}')
+    mod.publish('messages', msg)
