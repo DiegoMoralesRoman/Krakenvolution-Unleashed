@@ -4,16 +4,20 @@ import inspect
 from typing import Any, Callable, Dict, List, Optional, Type, TypeVar
 
 @dataclass
-class Message:
+class MessageContext:
     timestamp: datetime.datetime
+
+@dataclass
+class Message:
     value: Any
+    context: MessageContext
 
 @dataclass
 class Topic:
     name: str
     type: Optional[Type]
-    subscribers: List[Callable[[Any], None]] = field(default_factory=lambda: [])
-    message_queue: List[Any] = field(default_factory=lambda: [])
+    subscribers: List[Callable[[Any, MessageContext], None]] = field(default_factory=lambda: [])
+    message_queue: List[Message] = field(default_factory=lambda: [])
 
 class MessageHub:
     def __init__(self) -> None:
@@ -28,19 +32,26 @@ class MessageHub:
         for topic in self.topics.values():
             for msg in topic.message_queue:
                 for sub in topic.subscribers:
-                    sub(msg)
+                    sub(msg.value, msg.context)
             topic.message_queue = [] # Clear pending messages
                 
 
     def publish(self, topic: str, arg: Any):
         # Check if the topic already exists to create it if neccessary
+        generated_context = MessageContext(
+            timestamp=datetime.datetime.now()
+        )
+
         if not topic in self.topics:
             self.topics[topic] = Topic(
                 name=topic,
                 type=type(arg),
             )
             if self.halted: # Only action taken is if the hub is paused
-                self.topics[topic].message_queue.append(arg)
+                self.topics[topic].message_queue.append(Message(
+                    value=arg,
+                    context=generated_context
+                ))
         else: # Topic already exists
             # Check if argument is of the neccessary type
             type_id = type(arg)
@@ -49,16 +60,19 @@ class MessageHub:
             elif not self.topics[topic].type == type_id:
                 print(f'''
     Failed to publish to an already created topic "{topic}" of type {self.topics[topic].type}.
-    Tryping to publish value {arg} of type {type_id}
+    Tryping to publish value "{arg}" of type {type_id}
                 ''')
 
             if self.halted: # If it's halted, add it to the message queue
-                self.topics[topic].message_queue.append(arg)
+                self.topics[topic].message_queue.append(Message(
+                    value=arg,
+                    context=generated_context
+                ))
             else: 
                 for sub in self.topics[topic].subscribers:
-                    sub(arg)
+                    sub(arg, generated_context)
 
-    def subscribe(self, topic: str, callback: Callable[[Any], None]):
+    def subscribe(self, topic: str, callback: Callable[[Any, MessageContext], None]):
         # Check if action already exists
         callback_spec = inspect.getfullargspec(callback)
         type_id = None 
@@ -94,19 +108,14 @@ if __name__ == "__main__":
     def callback(arg):
         print(arg)
 
-    def foo(arg: int):
+    def foo(arg: int, context: MessageContext):
         print(f'Callback: {arg}')
+        print(f'ctx: {context}')
 
     def fuu(arg: float):
         print(f'Float: {arg}')
 
-    hub.pause()
-    hub.publish('lidar', 123)
-    hub.subscribe('lidar', callback)
     hub.subscribe('lidar', foo)
-    hub.publish('lidar', 345)
-    hub.subscribe('lidar', callback)
-    hub.resume()
-    hub.publish('lidar', 567)
+    hub.publish('lidar', 123)
 
 

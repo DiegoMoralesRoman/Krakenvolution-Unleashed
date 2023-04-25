@@ -1,7 +1,7 @@
 from egoros.node import Configuration
 
-def callback(arg: str):
-    print(f'Received message: {arg}')
+def callback(arg: str, context):
+    print(f'Received message: {arg}. Context: {context}')
 
 def init(node):
     print('Other node initialized')
