@@ -5,29 +5,59 @@ from typing import Any, Callable, Dict, List, Optional, Type, TypeVar
 
 @dataclass
 class MessageContext:
+    """
+    Context added to every message sent
+    @param timestamp Timestamp when the message was sent
+    """
     timestamp: datetime.datetime
 
 @dataclass
 class Message:
+    """
+    Topic message
+    @param value Value published
+    @param context Context of the published message
+    """
     value: Any
     context: MessageContext
 
 @dataclass
 class Topic:
+    """
+    Topic
+    @param name Name of the topic
+    @param type Type of the topic's messages 
+    @param subscribers Callbacks registered for the specified topic
+    @param message_queue Stored messages for when the hub is paused
+    """
     name: str
     type: Optional[Type]
     subscribers: List[Callable[[Any, MessageContext], None]] = field(default_factory=lambda: [])
     message_queue: List[Message] = field(default_factory=lambda: [])
 
 class MessageHub:
+    """
+    Message hub that manages all topics subscriptions and publishers
+    """
     def __init__(self) -> None:
+        """
+        Constructor
+        """
         self.topics: Dict[str, Topic] = {}
         self.halted = False
 
     def pause(self):
+        """
+        Pauses the message forwarding (useful when loading all nodes)
+        @details
+        All of the messages that are published while the hub is paused will be stored inside a queue
+        """
         self.halted = True
 
     def resume(self):
+        """
+        Resumes the message forwarding and sends all the stored messages
+        """
         self.halted = False
         for topic in self.topics.values():
             for msg in topic.message_queue:
@@ -37,6 +67,11 @@ class MessageHub:
                 
 
     def publish(self, topic: str, arg: Any):
+        """
+        Publishes a message
+        @param topic Topic to publish the data to
+        @param arg Message to send to the topic
+        """
         # Check if the topic already exists to create it if neccessary
         generated_context = MessageContext(
             timestamp=datetime.datetime.now()
@@ -73,6 +108,11 @@ class MessageHub:
                     sub(arg, generated_context)
 
     def subscribe(self, topic: str, callback: Callable[[Any, MessageContext], None]):
+        """
+        Adds a callback to the specified topic
+        @param topic Topic to subscribe to
+        @param callback Method to run when a message is published in the topic
+        """
         # Check if action already exists
         callback_spec = inspect.getfullargspec(callback)
         type_id = None 

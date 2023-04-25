@@ -4,7 +4,7 @@ from . import reloader
 import os
 from dataclasses import dataclass
 import threading
-from .pubsub import MessageHub
+from .pubsub import MessageContext, MessageHub
 
 def get_folder_nodes(path: str):
     """
@@ -91,7 +91,7 @@ class EgoInstance:
     def publish(self, topic: str, value: Any):
         self.msg_hub.publish(topic, value)
 
-    def subscribe(self, topic: str, callback: Callable[[Any], None]):
+    def subscribe(self, topic: str, callback: Callable[[Any, MessageContext], None]):
         self.msg_hub.subscribe(topic, callback)
 
     def enable_dynamic_reloads(self):
