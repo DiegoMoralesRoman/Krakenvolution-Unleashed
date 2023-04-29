@@ -34,6 +34,7 @@ class Topic:
     type: Optional[Type]
     subscribers: List[Callable[[Any, MessageContext], None]] = field(default_factory=lambda: [])
     message_queue: List[Message] = field(default_factory=lambda: [])
+    published: bool = False
 
 class MessageHub:
     """

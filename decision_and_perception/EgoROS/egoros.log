@@ -1,0 +1,94 @@
+2023-04-29 17:54:40,080 - egoros - INFO - 
+    Nodes discovered:
+    	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/fail.py
+
+    
+2023-04-29 17:54:40,080 - egoros - ERROR - 
+    Could not find all requirements for the module /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/fail.py
+    Found 0 out of 1 required members.
+    Requirements not found:
+        init
+
+            
+2023-04-29 17:55:00,876 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/fail.py
+
+    
+2023-04-29 17:55:00,876 - egoros - ERROR - 
+    Could not find all requirements for the module /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/fail.py
+    Found 0 out of 1 required members.
+    Requirements not found:
+        init
+
+            
+2023-04-29 18:02:33,794 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/fail.py
+
+    
+2023-04-29 18:02:33,795 - egoros - ERROR - 
+    Could not find all requirements for the module /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/fail.py
+    Found 0 out of 1 required members.
+    Requirements not found:
+        init
+
+            
+2023-04-29 18:02:42,219 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:02:42,219 - egoros - INFO - Enabling hot reload...
+2023-04-29 18:03:13,783 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:03:13,783 - egoros - INFO - Enabling hot reload...
+2023-04-29 18:07:06,163 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:07:06,164 - egoros - INFO - Enabling hot reload...
+2023-04-29 18:07:08,006 - egoros - CRITICAL - 
+    Could not read path "nodess"
+    
+2023-04-29 18:07:13,392 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:07:13,392 - egoros - INFO - Enabling hot reload...
+2023-04-29 18:08:44,559 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:08:44,559 - egoros - INFO - Enabling hot reload...
+2023-04-29 18:12:21,290 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:12:21,290 - egoros - INFO - Enabling hot reload...
+2023-04-29 18:13:48,783 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-04-29 18:13:48,784 - egoros - INFO - Enabling hot reload...

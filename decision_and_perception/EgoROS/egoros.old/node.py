@@ -8,9 +8,6 @@ import os.path
 import inspect
 from enum import Enum
 import traceback
-import logging
-
-log = logging.getLogger('egoros')
 
 class NodeState(Enum):
     ACTIVE = 0
@@ -41,9 +38,10 @@ class Configuration:
     """
     Node configuration
     @name Public name of the node. This name will allow accessible features for every other node
+    @param defered If True, runs the node in another thread
     """
     name: str
-    tick_rate: float = 0.1
+    defered: bool = False
 
 def normal_loader(path: str):
     """
@@ -54,11 +52,9 @@ def normal_loader(path: str):
     spec = importlib.util.spec_from_file_location(node_name, path)
 
     if not spec:
-        msg = f'''
+        raise ImportError(f'''
     Failed to generate spec for file {path}
-        '''
-        log.error(msg)
-        raise ImportError(msg)
+        ''')
 
     # Load and run module
     mod = importlib.util.module_from_spec(spec)
@@ -141,12 +137,10 @@ class Node:
 
         # In case that the node could not be loaded throw an exception
         if not self.mod:
-            msg = f'''
+            raise ImportError(f'''
     Module of type {filename} 
     has no defined loaders
-            '''
-            log.error(msg)
-            raise ImportError(msg)
+            ''')
 
         # Check if module is a valid node
         detected_requirements = {}
@@ -168,14 +162,13 @@ class Node:
             # Add the requirements that were not found to the error message
             for req in filter(lambda e: e.name not in detected_requirements.keys(), REQUIREMENTS):
                 not_found += f'{req.name}\n'
-            msg = f'''
+
+            raise ImportError(f'''
     Could not find all requirements for the module {filename}
     Found {len(detected_requirements)} out of {len(REQUIREMENTS)} required members.
     Requirements not found:
         {not_found}
-            '''
-            log.error(msg)
-            raise ImportError(msg)
+            ''')
         
         # Update internal attributes
         self.detected_requirements = detected_requirements
@@ -199,7 +192,7 @@ class Node:
                 return True
             except Exception as e:
                 self.state = NodeState.CRASHED
-                log.warning(f'''
+                print(f'''
     Node {self.filename} crashed ticking
     If hot reloading is enabled, fix the issue and save the file
     Exception:
@@ -224,19 +217,19 @@ class Node:
         try:
             node_config = self.detected_requirements['init'](arg)
             if not isinstance(node_config, Configuration):
-                msg = f'''
+                raise RuntimeError(f'''
         Configuration returned from node {self.filename} is not valid
         Returned value {node_config} of type {type(node_config)} instead of egoros.node.Configuration
-                '''
-                log.error(msg)
-                raise RuntimeError(msg)
+                ''')
 
             return node_config
-        except Exception:
+        except Exception as e:
             self.state = NodeState.CRASHED
-            log.warning(f'''
+            print(f'''
     Node {self.filename} crashed while initializing
     If hot reloading is enabled, fix the issue and save the file
     Exception:
         {traceback.format_exc()}
             ''')
+
+        return Configuration('crashed')
