@@ -1,0 +1,2235 @@
+diff --git a/decision_and_perception/EgoROS/egoros.log b/decision_and_perception/EgoROS/egoros.log
+index 3bb8854..eec811a 100644
+--- a/decision_and_perception/EgoROS/egoros.log
++++ b/decision_and_perception/EgoROS/egoros.log
+@@ -92,3 +92,2042 @@
+ 
+     
+ 2023-04-29 18:13:48,784 - egoros - INFO - Enabling hot reload...
++2023-05-02 20:22:37,857 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-02 20:22:37,859 - egoros - INFO - Enabling hot reload...
++2023-05-02 20:22:56,609 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-02 20:22:56,610 - egoros - INFO - Enabling hot reload...
++2023-05-02 20:22:56,610 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-07 14:19:53,345 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-07 14:19:53,346 - egoros - INFO - Enabling hot reload...
++2023-05-07 14:19:53,346 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 14:14:34,906 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 14:14:34,907 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 14:30:13,581 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 14:30:13,582 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 15:54:17,564 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 15:54:17,565 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 15:59:36,224 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 15:59:36,224 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 16:01:27,311 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:01:45,933 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:02:06,692 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:02:06,692 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 16:02:23,290 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:26:24,982 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:27:07,380 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:30:45,462 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:32:18,692 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:32:18,693 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 16:32:24,770 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:32:24,771 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 16:56:03,030 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:56:15,364 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:57:05,432 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:57:40,480 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:57:41,343 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 16:57:41,343 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 16:57:48,978 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:57:50,449 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 16:57:50,449 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 16:59:26,979 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 16:59:28,042 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 16:59:28,043 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 17:01:42,433 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 17:01:44,321 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 17:01:44,321 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 17:01:52,222 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 17:01:53,041 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 17:01:53,041 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 17:02:58,693 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 17:02:59,526 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 17:02:59,526 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 17:03:00,284 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-08 17:03:09,739 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 17:03:10,305 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 17:03:10,306 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 17:03:11,222 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-08 17:07:26,281 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 17:07:27,506 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 17:07:27,506 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-08 17:07:28,223 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-08 17:07:28,223 - egoros - ERROR - You dun goofed
++2023-05-08 17:07:34,338 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-08 17:07:35,200 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-08 17:07:35,200 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:00:28,730 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:09:22,676 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:10:03,271 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:11:11,654 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:11:22,901 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:11:33,401 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:11:37,444 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:11:41,923 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:12:43,674 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:12:53,007 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:13:03,854 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:13:03,854 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:13:42,505 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:13:42,505 - egoros - INFO - Spinning server...
++2023-05-27 20:13:45,265 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:13:45,265 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:14:05,838 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:14:05,838 - egoros - INFO - Spinning server...
++2023-05-27 20:14:07,695 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:14:07,695 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:15:23,115 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:15:23,116 - egoros - INFO - Spinning server...
++2023-05-27 20:15:26,209 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:15:26,210 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:17:10,596 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:17:10,596 - egoros - INFO - Spinning server...
++2023-05-27 20:17:10,599 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 225, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py", line 8, in init
++    node.subscribe('messages', callback)
++    ^^^^^^^^^^^^^^
++AttributeError: 'EgoNode' object has no attribute 'subscribe'
++
++            
++2023-05-27 20:17:48,913 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:17:48,913 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:17:49,682 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:17:49,683 - egoros - INFO - Spinning server...
++2023-05-27 20:17:49,685 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 225, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py", line 8, in init
++    node.subscribe('messages', callback)
++    ^^^^^^^^^^^^^^
++AttributeError: 'EgoNode' object has no attribute 'subscribe'
++
++            
++2023-05-27 20:17:50,337 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:17:50,337 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:17:55,369 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:17:55,369 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:17:55,369 - egoros - INFO - Spinning server...
++2023-05-27 20:17:55,372 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 225, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py", line 8, in init
++    node.subscribe('messages', callback)
++    ^^^^^^^^^^^^^^
++AttributeError: 'EgoNode' object has no attribute 'subscribe'
++
++            
++2023-05-27 20:18:20,102 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:18:20,102 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:18:26,540 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:18:26,541 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:18:26,541 - egoros - INFO - Spinning server...
++2023-05-27 20:19:29,573 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:19:29,573 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:19:30,240 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:19:30,241 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:19:30,241 - egoros - INFO - Spinning server...
++2023-05-27 20:19:46,429 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:19:46,429 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:19:47,773 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:19:47,773 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:19:47,773 - egoros - INFO - Spinning server...
++2023-05-27 20:19:48,592 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:19:48,593 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:21:25,515 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:21:25,516 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:21:25,516 - egoros - INFO - Spinning server...
++2023-05-27 20:21:56,388 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:21:56,388 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:21:56,847 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:21:56,847 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:21:56,847 - egoros - INFO - Spinning server...
++2023-05-27 20:21:59,903 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:21:59,904 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:22:04,310 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:22:04,310 - egoros - INFO - Spinning server...
++2023-05-27 20:22:18,807 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:22:18,807 - egoros - INFO - Spinning server...
++2023-05-27 20:23:17,663 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:23:17,664 - egoros - INFO - Spinning server...
++2023-05-27 20:23:17,666 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoInstance' object has no attribute 'reload_server'
++    
++2023-05-27 20:23:43,175 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:23:43,175 - egoros - INFO - Spinning server...
++2023-05-27 20:23:43,910 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:23:43,910 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:23:43,911 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:23:45,650 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:23:45,651 - egoros - INFO - Spinning server...
++2023-05-27 20:23:52,194 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:23:52,195 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:23:52,195 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:24:00,759 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:24:00,760 - egoros - INFO - Spinning server...
++2023-05-27 20:24:02,252 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:24:02,253 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:24:02,253 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:24:38,796 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:24:38,796 - egoros - INFO - Spinning server...
++2023-05-27 20:24:45,117 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:24:45,117 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:24:45,118 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:24:45,536 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:24:45,536 - egoros - INFO - Spinning server...
++2023-05-27 20:24:48,031 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:24:48,031 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:24:48,031 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:24:54,077 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:24:54,078 - egoros - INFO - Spinning server...
++2023-05-27 20:24:54,752 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:24:54,752 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:24:54,752 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:24:56,353 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:24:56,354 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:24:56,354 - egoros - INFO - Spinning server...
++2023-05-27 20:25:00,616 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:25:00,616 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:25:00,616 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:25:07,288 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:25:07,288 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:25:07,289 - egoros - INFO - Spinning server...
++2023-05-27 20:25:16,139 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:25:16,139 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:25:16,140 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:26:30,551 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:26:30,551 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:26:30,551 - egoros - INFO - Spinning server...
++2023-05-27 20:26:51,873 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:26:51,874 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:26:51,874 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:26:52,476 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:26:52,476 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:26:52,476 - egoros - INFO - Spinning server...
++2023-05-27 20:27:10,929 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:27:10,929 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:27:10,930 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:27:11,466 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:27:11,467 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:27:11,467 - egoros - INFO - Spinning server...
++2023-05-27 20:27:14,197 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:27:14,197 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:27:14,197 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    
++2023-05-27 20:28:40,715 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:28:40,716 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:28:40,716 - egoros - INFO - Spinning server...
++2023-05-27 20:28:42,267 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:28:42,267 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:28:42,269 - egoros - CRITICAL - 
++    Uncaught exception:
++'EgoNode' object has no attribute 'ticker_handler'
++    Backtrace:
++Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/__main__.py", line 58, in <module>
++    ego.spin()
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/instance.py", line 54, in spin
++    [joiner() for joiner in joiners]
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/instance.py", line 54, in <listcomp>
++    [joiner() for joiner in joiners]
++     ^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 31, in join
++    if self.ticker_handler != None:
++       ^^^^^^^^^^^^^^^^^^^
++AttributeError: 'EgoNode' object has no attribute 'ticker_handler'
++
++    
++2023-05-27 20:29:12,558 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:29:12,559 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:29:12,559 - egoros - INFO - Spinning server...
++2023-05-27 20:29:13,077 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:29:13,077 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:29:22,317 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:29:22,317 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:29:22,317 - egoros - INFO - Spinning server...
++2023-05-27 20:29:24,973 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:29:24,973 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:30:09,102 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:30:09,102 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:30:09,102 - egoros - INFO - Spinning server...
++2023-05-27 20:30:29,321 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:30:29,322 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:31:06,088 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:31:06,088 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:31:06,088 - egoros - INFO - Spinning server...
++2023-05-27 20:44:04,146 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:44:04,146 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:44:05,069 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:44:05,069 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:44:05,070 - egoros - INFO - Spinning server...
++2023-05-27 20:44:09,250 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:44:09,250 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-27 20:44:13,148 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-27 20:44:13,148 - egoros - INFO - Enabling hot reload...
++2023-05-27 20:44:13,148 - egoros - INFO - Spinning server...
++2023-05-27 20:44:21,682 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-27 20:44:21,682 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:08:27,597 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:08:27,598 - egoros - INFO - Spinning server...
++2023-05-31 16:08:30,924 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:08:30,925 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:08:41,445 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:08:41,445 - egoros - INFO - Spinning server...
++2023-05-31 16:08:43,123 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:08:43,123 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:12:08,879 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:12:08,879 - egoros - INFO - Spinning server...
++2023-05-31 16:12:19,180 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:12:19,181 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:15:47,338 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:15:47,339 - egoros - INFO - Spinning server...
++2023-05-31 16:15:48,604 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:15:48,605 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:16:30,609 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:16:30,609 - egoros - INFO - Spinning server...
++2023-05-31 16:17:37,359 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:17:37,360 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:17:37,844 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:17:37,844 - egoros - INFO - Spinning server...
++2023-05-31 16:17:37,948 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed ticking
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 199, in tick
++    self.tick_callback(arg)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 21, in tick
++    mod.publish('messages', msg)
++    ^^^^^^^^^^^
++AttributeError: 'EgoNode' object has no attribute 'publish'
++
++                
++2023-05-31 16:17:43,622 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:17:43,622 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:18:52,995 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:18:52,996 - egoros - INFO - Spinning server...
++2023-05-31 16:18:53,099 - egoros - INFO - Set type for topic "messages" to "<class 'str'>"
++2023-05-31 16:19:25,488 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:19:25,489 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:19:27,061 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:19:27,062 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:19:27,062 - egoros - INFO - Spinning server...
++2023-05-31 16:19:28,065 - egoros - INFO - Set type for topic "messages" to "<class 'str'>"
++2023-05-31 16:19:34,243 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++    ^^^^^^^^^^^^^
++AttributeError: 'EgoInstance' object has no attribute 'subscribe'
++
++            
++2023-05-31 16:19:34,244 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++    ^^^^^^^^^^^^^
++AttributeError: 'EgoInstance' object has no attribute 'subscribe'
++
++            
++2023-05-31 16:19:34,245 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++    ^^^^^^^^^^^^^
++AttributeError: 'EgoInstance' object has no attribute 'subscribe'
++
++            
++2023-05-31 16:20:25,624 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++    ^^^^^^^^^^^^^
++AttributeError: 'EgoInstance' object has no attribute 'subscribe'
++
++            
++2023-05-31 16:20:25,624 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++    ^^^^^^^^^^^^^
++AttributeError: 'EgoInstance' object has no attribute 'subscribe'
++
++            
++2023-05-31 16:20:25,625 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++    ^^^^^^^^^^^^^
++AttributeError: 'EgoInstance' object has no attribute 'subscribe'
++
++            
++2023-05-31 16:20:27,071 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:20:27,071 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:24:14,181 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:24:14,181 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:24:14,182 - egoros - INFO - Spinning server...
++2023-05-31 16:24:15,184 - egoros - INFO - Set type for topic "messages" to "<class 'str'>"
++2023-05-31 16:25:26,938 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:25:26,938 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:25:27,370 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:25:27,370 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:25:27,370 - egoros - INFO - Spinning server...
++2023-05-31 16:25:28,373 - egoros - INFO - Set type for topic "messages" to "<class 'str'>"
++2023-05-31 16:27:56,339 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:27:56,339 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:44:34,566 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:44:34,566 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:44:34,567 - egoros - INFO - Spinning server...
++2023-05-31 16:44:34,567 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 16:44:34,567 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 58, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 16:44:35,872 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:44:35,873 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:45:51,444 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:45:51,444 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:45:51,444 - egoros - INFO - Spinning server...
++2023-05-31 16:45:51,444 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 16:45:51,445 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 58, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 16:46:12,990 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:46:12,990 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:46:13,512 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:46:13,512 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:46:13,513 - egoros - INFO - Spinning server...
++2023-05-31 16:46:13,513 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 16:46:13,513 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 58, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 16:46:17,938 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:46:17,939 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 16:46:53,785 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 16:46:53,786 - egoros - INFO - Enabling hot reload...
++2023-05-31 16:46:53,786 - egoros - INFO - Spinning server...
++2023-05-31 16:46:53,786 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 16:46:53,786 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 58, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 16:47:19,013 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 16:47:19,013 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:00:41,241 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:00:41,242 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:00:41,242 - egoros - INFO - Spinning server...
++2023-05-31 17:00:41,243 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:00:41,243 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:00:45,129 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:00:45,129 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:01:03,593 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:01:03,593 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:01:03,593 - egoros - INFO - Spinning server...
++2023-05-31 17:01:03,593 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:01:03,594 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:01:05,264 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:01:05,265 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:01:12,923 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:01:12,923 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:01:12,923 - egoros - INFO - Spinning server...
++2023-05-31 17:01:12,923 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:01:12,924 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:01:21,131 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:01:21,131 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:03:17,413 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:03:17,413 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:03:17,413 - egoros - INFO - Spinning server...
++2023-05-31 17:03:17,414 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:03:17,414 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:04:22,275 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:04:22,275 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:04:22,911 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:04:22,911 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:04:22,911 - egoros - INFO - Spinning server...
++2023-05-31 17:04:22,912 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:04:22,912 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 61, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:04:25,517 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:04:25,517 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:05:25,049 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:05:25,049 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:05:25,049 - egoros - INFO - Spinning server...
++2023-05-31 17:05:25,050 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:05:25,050 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:05:27,001 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:05:27,001 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:05:30,112 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:05:30,112 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:05:30,112 - egoros - INFO - Spinning server...
++2023-05-31 17:05:30,113 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:05:30,113 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:05:48,523 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:05:48,523 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:06:04,778 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:06:04,779 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:06:04,779 - egoros - INFO - Spinning server...
++2023-05-31 17:06:04,779 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:06:04,780 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:06:28,060 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:06:28,060 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:06:45,339 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:06:45,339 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:06:45,339 - egoros - INFO - Spinning server...
++2023-05-31 17:06:45,340 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:06:45,340 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:06:51,046 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:06:51,046 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:07:21,264 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:07:21,265 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:07:21,265 - egoros - INFO - Spinning server...
++2023-05-31 17:07:22,268 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:07:25,032 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:07:25,033 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:07:50,560 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:07:50,561 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:07:50,561 - egoros - INFO - Spinning server...
++2023-05-31 17:07:50,562 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:07:50,562 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:07:52,057 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:07:52,057 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:08:03,893 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:08:03,893 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:08:03,893 - egoros - INFO - Spinning server...
++2023-05-31 17:08:03,894 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:08:03,894 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:08:13,271 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:08:13,271 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:08:16,589 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:08:16,589 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:08:16,590 - egoros - INFO - Spinning server...
++2023-05-31 17:08:16,590 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:08:16,591 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:08:17,907 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:08:17,907 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:08:35,555 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:08:35,555 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:08:35,556 - egoros - INFO - Spinning server...
++2023-05-31 17:08:36,559 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:08:42,897 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:08:42,897 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:08:48,201 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:08:48,202 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:08:48,202 - egoros - INFO - Spinning server...
++2023-05-31 17:08:48,202 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:08:48,203 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 60, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:08:52,551 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:08:52,551 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:09:34,073 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:09:34,074 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:09:34,074 - egoros - INFO - Spinning server...
++2023-05-31 17:09:34,074 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:09:34,075 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 61, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:09:46,907 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:09:46,907 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:09:54,786 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:09:54,786 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:09:54,786 - egoros - INFO - Spinning server...
++2023-05-31 17:09:54,787 - egoros - ERROR - 
++    Provided callback has an insufficient number of arguments (3)
++            
++2023-05-31 17:09:54,787 - egoros - WARNING - 
++    Node /home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py crashed while initializing
++    If hot reloading is enabled, fix the issue and save the file
++    Exception:
++        Traceback (most recent call last):
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/node.py", line 226, in init
++    node_config = self.detected_requirements['init'](arg)
++                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py", line 12, in init
++    mod.subscribe('kekos', test)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/egonode.py", line 61, in subscribe
++    self.topics[topic].subscribe(cb)
++  File "/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/egoros/pubsub.py", line 59, in subscribe
++    raise TypeError(msg)
++TypeError: 
++    Provided callback has an insufficient number of arguments (3)
++            
++
++            
++2023-05-31 17:12:52,279 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:12:52,279 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:12:52,943 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:12:52,944 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:12:52,944 - egoros - INFO - Spinning server...
++2023-05-31 17:12:53,948 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:17:39,866 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:17:39,867 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:17:40,506 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:17:40,506 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:17:40,506 - egoros - INFO - Spinning server...
++2023-05-31 17:17:41,509 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:18:03,852 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:18:03,853 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:18:04,430 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:18:04,431 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:18:04,431 - egoros - INFO - Spinning server...
++2023-05-31 17:18:05,435 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:18:11,586 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:18:11,587 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:18:41,305 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:18:41,305 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:18:41,305 - egoros - INFO - Spinning server...
++2023-05-31 17:18:42,309 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:18:45,601 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:18:45,601 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:19:10,544 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:19:10,544 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:19:10,544 - egoros - INFO - Spinning server...
++2023-05-31 17:19:11,548 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:19:16,033 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:19:16,034 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:20:06,962 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:20:06,963 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:20:06,963 - egoros - INFO - Spinning server...
++2023-05-31 17:20:07,967 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:20:21,022 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:20:21,022 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:20:21,583 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-31 17:20:21,583 - egoros - ERROR - You dun goofed
++2023-05-31 17:23:12,833 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:23:12,833 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:23:12,833 - egoros - INFO - Spinning server...
++2023-05-31 17:23:13,837 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:23:16,362 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:23:16,362 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:23:17,499 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-31 17:23:17,500 - egoros - ERROR - You dun goofed
++2023-05-31 17:25:31,505 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:25:31,505 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:25:31,505 - egoros - INFO - Spinning server...
++2023-05-31 17:25:32,509 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:25:36,425 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:25:36,425 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:25:37,387 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-31 17:25:37,387 - egoros - ERROR - You dun goofed
++2023-05-31 17:30:09,393 - egoros - INFO - 
++    Nodes discovered:
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
++	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
++
++    
++2023-05-31 17:30:09,393 - egoros - INFO - Enabling hot reload...
++2023-05-31 17:30:09,394 - egoros - INFO - Spinning server...
++2023-05-31 17:30:10,397 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
++2023-05-31 17:30:12,736 - egoros - WARNING - 
++    Egoros interrupted by user, stopping all threads...
++            
++2023-05-31 17:30:12,736 - egoros - INFO - 
++    Finishing EgoROS instance.
++    Waiting for all nodes to finish...
++        
++2023-05-31 17:30:13,105 - egoros - WARNING - 
++    Forcing exit of nodes
++            
++2023-05-31 17:30:13,105 - egoros - ERROR - You dun goofed
+diff --git a/decision_and_perception/EgoROS/egoros/__init__.py b/decision_and_perception/EgoROS/egoros/__init__.py
+index 8b13789..909a920 100644
+--- a/decision_and_perception/EgoROS/egoros/__init__.py
++++ b/decision_and_perception/EgoROS/egoros/__init__.py
+@@ -1 +1,3 @@
++# from instance import EgoInstance
++# TODO: Fix imports
+ 
+diff --git a/decision_and_perception/EgoROS/egoros/__main__.py b/decision_and_perception/EgoROS/egoros/__main__.py
+index 7f5128c..a2b282a 100644
+--- a/decision_and_perception/EgoROS/egoros/__main__.py
++++ b/decision_and_perception/EgoROS/egoros/__main__.py
+@@ -7,6 +7,7 @@ from . import node
+ import logging
+ from functools import reduce
+ from . import instance
++import traceback
+ 
+ 
+ log = logging.getLogger('egoros')
+@@ -53,6 +54,9 @@ try:
+         log.info('Enabling hot reload...')
+         ego.enable_hot_reloading()
+ 
++    log.info('Spinning server...')
++    ego.spin()
++
+ 
+ except FileNotFoundError as e:
+     log.critical(f'''
+@@ -61,4 +65,10 @@ except FileNotFoundError as e:
+     )
+     exit(1)
+ except Exception as e:
++    log.critical(f'''
++    Uncaught exception:
++{e}
++    Backtrace:
++{traceback.format_exc()}
++    ''')
+     exit(1)
+diff --git a/decision_and_perception/EgoROS/egoros/instance.py b/decision_and_perception/EgoROS/egoros/instance.py
+index 8d4a8f8..2055fc3 100644
+--- a/decision_and_perception/EgoROS/egoros/instance.py
++++ b/decision_and_perception/EgoROS/egoros/instance.py
+@@ -1,7 +1,10 @@
+-from typing import List
++import threading
++from typing import Any, Dict, List
+ from . import node
++from . import egonode
+ import logging
+ from . import reloader
++from .pubsub import Topic
+ 
+ log = logging.getLogger('egoros')
+ 
+@@ -12,25 +15,52 @@ class EgoInstance:
+     def __init__(self, node_filanames: List[str]) -> None:
+         # Open nodes
+         self.nodes = [node.Node(file) for file in node_filanames]
++        self.topics: Dict[str, Topic] = {}
++        self.reload_server = None
+ 
+     def enable_hot_reloading(self) -> None:
+-        reloader.enable_dynamic_reloads(self.nodes, self)
++        self.reload_server = reloader.enable_dynamic_reloads(self.nodes, self)
+ 
+     def spin(self) -> None:
+         running = True
+ 
++        # Create EgoNodes
++        nodes = [egonode.EgoNode(node, self.topics) for node in self.nodes]
++
++        # Launch all nodes
++        joiners = [node.launch() for node in nodes]
++
++        ev = threading.Event()
++        # Wait for all nodes to stop
++        try:
++            print(self.reload_server)
++            if (self.reload_server != None):
++                self.reload_server.start()
++            ev.wait()
++        except KeyboardInterrupt:
++            msg = f'''
++    Egoros interrupted by user, stopping all threads...
++            '''
++            log.warning(msg)
++
++        [node.stop() for node in nodes]
++
+         log.info(f'''
+     Finishing EgoROS instance.
+     Waiting for all nodes to finish...
+         ''')
+ 
+         try:
+-            # TODO: Add the joins for the thread handlers
++            [joiner() for joiner in joiners]
+             pass
+-        except InterruptedError as e:
++        except KeyboardInterrupt as e:
+             log.warning(f'''
+     Forcing exit of nodes
+             ''')
+             # TODO: abort nodes execution
++            log.error('You dun goofed')
++            raise e # FIXME: this is obviously a problem, but I don't want to fix it now
+ 
++    def publish(self, topic: str, value: Any):
++        pass
+ 
+diff --git a/decision_and_perception/EgoROS/egoros/node.py b/decision_and_perception/EgoROS/egoros/node.py
+index 2d7747b..473a443 100644
+--- a/decision_and_perception/EgoROS/egoros/node.py
++++ b/decision_and_perception/EgoROS/egoros/node.py
+@@ -41,9 +41,10 @@ class Configuration:
+     """
+     Node configuration
+     @name Public name of the node. This name will allow accessible features for every other node
++    @tick_rate Target ticks per second for the node
+     """
+     name: str
+-    tick_rate: float = 0.1
++    tick_rate: float = 10 
+ 
+ def normal_loader(path: str):
+     """
+diff --git a/decision_and_perception/EgoROS/egoros/reloader.py b/decision_and_perception/EgoROS/egoros/reloader.py
+index b269eb1..cb9f40b 100644
+--- a/decision_and_perception/EgoROS/egoros/reloader.py
++++ b/decision_and_perception/EgoROS/egoros/reloader.py
+@@ -35,7 +35,7 @@ def callback(node: node.Node, init_arg: Any) -> None:
+     """
+     print(f'Reloading node {node.filename}')
+     node.__init__(node.filename) # Reload module
+-    node.init(init_arg)
++    # node.init(init_arg)
+ 
+ def enable_dynamic_reloads(nodes: List[node.Node], init_arg: Any) -> Observer:
+     """
+@@ -45,7 +45,7 @@ def enable_dynamic_reloads(nodes: List[node.Node], init_arg: Any) -> Observer:
+     @return: An instance of the Observer class used to watch for file modifications
+     """
+     for node in nodes:
+-        handler = FileModifiedHandler(lambda: callback(node, init_arg))  # Create a new event handler for the node
++        handler = FileModifiedHandler(lambda node=node: callback(node, init_arg))  # Create a new event handler for the node
+         observer.schedule(handler, node.filename, recursive=False)  # Schedule the event handler to watch for file modifications
+         handlers.append(handler)  # Add the event handler to the list of handlers
+ 
+diff --git a/decision_and_perception/EgoROS/nodes/node.py b/decision_and_perception/EgoROS/nodes/node.py
+index 4627430..4bc3643 100644
+--- a/decision_and_perception/EgoROS/nodes/node.py
++++ b/decision_and_perception/EgoROS/nodes/node.py
+@@ -4,13 +4,18 @@ import logging
+ 
+ import egoros.node
+ 
++def test(msg, ctx):
++    print(msg, ctx)
++
+ def init(mod):
+     print('Piposaurio (from normal node)')
++    mod.subscribe('kekos', test)
+     return egoros.node.Configuration(
+         name = 'test_node',
++        tick_rate = 1
+     )
+ 
+ def tick(mod):
+     msg = 'Holiwis'
+     print(f'Publicando: {msg}')
+-    mod.publish('messages', msg)
++    mod.publish('kekos', msg)
+diff --git a/decision_and_perception/EgoROS/nodes/other.py b/decision_and_perception/EgoROS/nodes/other.py
+index 66d296c..18239bc 100644
+--- a/decision_and_perception/EgoROS/nodes/other.py
++++ b/decision_and_perception/EgoROS/nodes/other.py
+@@ -5,7 +5,7 @@ def callback(arg: str, context):
+ 
+ def init(node):
+     print('Other node initialized')
+-    node.subscribe('messages', callback)
++    # node.subscribe('messages', callback)
+     return Configuration(
+         name='Kekos'
+     )

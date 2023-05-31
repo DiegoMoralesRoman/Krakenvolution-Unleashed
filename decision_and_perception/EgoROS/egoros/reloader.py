@@ -35,7 +35,7 @@ def callback(node: node.Node, init_arg: Any) -> None:
     """
     print(f'Reloading node {node.filename}')
     node.__init__(node.filename) # Reload module
-    node.init(init_arg)
+    # node.init(init_arg)
 
 def enable_dynamic_reloads(nodes: List[node.Node], init_arg: Any) -> Observer:
     """
@@ -45,7 +45,7 @@ def enable_dynamic_reloads(nodes: List[node.Node], init_arg: Any) -> Observer:
     @return: An instance of the Observer class used to watch for file modifications
     """
     for node in nodes:
-        handler = FileModifiedHandler(lambda: callback(node, init_arg))  # Create a new event handler for the node
+        handler = FileModifiedHandler(lambda node=node: callback(node, init_arg))  # Create a new event handler for the node
         observer.schedule(handler, node.filename, recursive=False)  # Schedule the event handler to watch for file modifications
         handlers.append(handler)  # Add the event handler to the list of handlers
 

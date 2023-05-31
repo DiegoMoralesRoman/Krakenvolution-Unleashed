@@ -7,6 +7,7 @@ from . import node
 import logging
 from functools import reduce
 from . import instance
+import traceback
 
 
 log = logging.getLogger('egoros')
@@ -53,6 +54,9 @@ try:
         log.info('Enabling hot reload...')
         ego.enable_hot_reloading()
 
+    log.info('Spinning server...')
+    ego.spin()
+
 
 except FileNotFoundError as e:
     log.critical(f'''
@@ -61,4 +65,10 @@ except FileNotFoundError as e:
     )
     exit(1)
 except Exception as e:
+    log.critical(f'''
+    Uncaught exception:
+{e}
+    Backtrace:
+{traceback.format_exc()}
+    ''')
     exit(1)

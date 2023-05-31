@@ -5,7 +5,7 @@ def callback(arg: str, context):
 
 def init(node):
     print('Other node initialized')
-    node.subscribe('messages', callback)
+    # node.subscribe('messages', callback)
     return Configuration(
         name='Kekos'
     )

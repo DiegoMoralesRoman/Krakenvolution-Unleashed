@@ -41,9 +41,10 @@ class Configuration:
     """
     Node configuration
     @name Public name of the node. This name will allow accessible features for every other node
+    @tick_rate Target ticks per second for the node
     """
     name: str
-    tick_rate: float = 0.1
+    tick_rate: float = 10 
 
 def normal_loader(path: str):
     """
