@@ -87,6 +87,7 @@ class EgoNode:
         @param msg: The message value
         @param ctx: The message context
         """
+        print (self.subscriptions[topic].msg_queue)
         self.subscriptions[topic].msg_queue.put(Message(
             value=msg,
             ctx=ctx
@@ -113,6 +114,11 @@ class EgoNode:
         sub = self.subscriptions[topic]
         while (self.running):
             msg = sub.msg_queue.get()
+            for callback in sub.callbacks:
+                callback(
+                    msg.value,
+                    msg.ctx
+                )
 
     def __topic_reader_worker(self):
         """

@@ -7,6 +7,9 @@ def init(node):
     print('Other node initialized')
     # node.subscribe('messages', callback)
     return Configuration(
-        name='Kekos'
+        name='Kekos',
+        tick_rate=1
     )
 
+def tick(node):
+    node.publish('kekos', "Kekosaurio")

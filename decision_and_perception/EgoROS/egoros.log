@@ -2131,3 +2131,253 @@ TypeError:
     Forcing exit of nodes
             
 2023-05-31 17:30:13,105 - egoros - ERROR - You dun goofed
+2023-05-31 17:38:25,769 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:38:25,770 - egoros - INFO - Enabling hot reload...
+2023-05-31 17:38:25,770 - egoros - INFO - Spinning server...
+2023-05-31 17:38:25,875 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:38:26,773 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:38:59,378 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:38:59,379 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:39:00,137 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:39:00,137 - egoros - ERROR - You dun goofed
+2023-05-31 17:39:00,641 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:39:00,642 - egoros - INFO - Enabling hot reload...
+2023-05-31 17:39:00,642 - egoros - INFO - Spinning server...
+2023-05-31 17:39:00,747 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:39:03,369 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:39:03,369 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:39:03,891 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:39:03,891 - egoros - ERROR - You dun goofed
+2023-05-31 17:39:04,922 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:39:04,923 - egoros - INFO - Spinning server...
+2023-05-31 17:39:05,027 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:40:07,863 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:40:07,864 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:40:08,465 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:40:08,465 - egoros - ERROR - You dun goofed
+2023-05-31 17:40:09,341 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:40:09,341 - egoros - INFO - Spinning server...
+2023-05-31 17:40:09,446 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:40:24,035 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:40:24,036 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:40:24,679 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:40:24,680 - egoros - ERROR - You dun goofed
+2023-05-31 17:40:25,386 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:40:25,386 - egoros - INFO - Spinning server...
+2023-05-31 17:40:26,391 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:42:26,215 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:42:26,215 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:42:26,515 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:42:26,515 - egoros - ERROR - You dun goofed
+2023-05-31 17:42:27,007 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:42:27,007 - egoros - INFO - Spinning server...
+2023-05-31 17:42:28,012 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:42:42,703 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:42:42,703 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:42:42,852 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:42:42,852 - egoros - ERROR - You dun goofed
+2023-05-31 17:42:44,594 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:42:44,594 - egoros - INFO - Spinning server...
+2023-05-31 17:42:45,599 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:42:46,111 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:42:46,112 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:42:48,055 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:42:48,055 - egoros - ERROR - You dun goofed
+2023-05-31 17:42:51,526 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:42:51,526 - egoros - INFO - Spinning server...
+2023-05-31 17:42:52,531 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:44:12,340 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:44:12,340 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:44:12,683 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:44:12,684 - egoros - ERROR - You dun goofed
+2023-05-31 17:44:13,243 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:44:13,243 - egoros - INFO - Spinning server...
+2023-05-31 17:44:14,248 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:44:16,010 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:44:16,010 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:44:16,504 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:44:16,504 - egoros - ERROR - You dun goofed
+2023-05-31 17:45:02,608 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:45:02,608 - egoros - INFO - Spinning server...
+2023-05-31 17:45:03,613 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:45:05,912 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:45:05,913 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:45:06,298 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:45:06,298 - egoros - ERROR - You dun goofed
+2023-05-31 17:45:28,204 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:45:28,204 - egoros - INFO - Spinning server...
+2023-05-31 17:45:29,209 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:45:33,995 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:45:33,995 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:45:34,514 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:45:34,514 - egoros - ERROR - You dun goofed
+2023-05-31 17:46:37,135 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:46:37,135 - egoros - INFO - Spinning server...
+2023-05-31 17:46:38,140 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:46:45,893 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:46:45,893 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:46:46,475 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:46:46,475 - egoros - ERROR - You dun goofed
+2023-05-31 17:48:00,158 - egoros - INFO - 
+    Nodes discovered:
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/node.py
+	/home/diego/Programación/robots/KrakensUnleashed/decision_and_perception/EgoROS/nodes/other.py
+
+    
+2023-05-31 17:48:00,158 - egoros - INFO - Spinning server...
+2023-05-31 17:48:01,163 - egoros - INFO - Set type for topic "kekos" to "<class 'str'>"
+2023-05-31 17:48:04,542 - egoros - WARNING - 
+    Egoros interrupted by user, stopping all threads...
+            
+2023-05-31 17:48:04,542 - egoros - INFO - 
+    Finishing EgoROS instance.
+    Waiting for all nodes to finish...
+        
+2023-05-31 17:48:04,870 - egoros - WARNING - 
+    Forcing exit of nodes
+            
+2023-05-31 17:48:04,870 - egoros - ERROR - You dun goofed

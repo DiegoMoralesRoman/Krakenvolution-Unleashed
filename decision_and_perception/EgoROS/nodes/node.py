@@ -16,6 +16,4 @@ def init(mod):
     )
 
 def tick(mod):
-    msg = 'Holiwis'
-    print(f'Publicando: {msg}')
-    mod.publish('kekos', msg)
+    pass
